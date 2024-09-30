@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ECECEC;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="116.0" layoutY="53.0" prefHeight="328.0" prefWidth="462.0" style="-fx-background-color: #FFFFFF;">
+
+      </Pane>
+      <ToolBar layoutX="9.0" layoutY="-5.0" prefHeight="34.0" prefWidth="609.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <items>
+            <Button text="New" />
+            <Button text="Open" />
+            <Button text="Save" />
+         </items>
+      </ToolBar>
+      <Button layoutX="16.0" layoutY="136.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="84.0" text="Painter" />
+      <Button layoutX="16.0" layoutY="158.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="84.0" text="Oval" />
+      <Button layoutX="16.0" layoutY="182.0" mnemonicParsing="false" text="Rectangle" />
+      <Button layoutX="16.0" layoutY="206.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="84.0" text="Line" />
+      <Button layoutX="16.0" layoutY="230.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="84.0" text="Eraser" />
+      <Button layoutX="16.0" layoutY="254.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="84.0" text="Clear All" />
+   </children>
+</AnchorPane>
